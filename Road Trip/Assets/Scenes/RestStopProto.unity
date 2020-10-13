@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: e222162ddb8d34547a133b673221b195, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9373458b03c5ffb4aaddcf3b463ed13d, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -866,7 +866,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 67f773d1b696b194ba0d1855ba08f66a, type: 2}
+  - {fileID: 2100000, guid: d85b87991dc9585429ca3aecb437c93c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1412362028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7289680016212045a8bacf6e6bd27e1, type: 3}
+  m_Script: {fileID: 11500000, guid: e4af980383c3ebd448e5671131473a16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
@@ -987,10 +987,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1513583363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad7a74766380dd344a65d45c9673a941, type: 3}
+  m_Script: {fileID: 11500000, guid: b9c1ed3cf2405e548ab1b2e62bcb3e42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textString: Welcome to this rest stop! Enjoy the view!
+  textString: Congrats! You can read! Enjoy the view!
 --- !u!222 &1513583366
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1130,7 +1130,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9117d58317f343f40bf467623bb0389c, type: 2}
+  - {fileID: 2100000, guid: e9f8d783fc9cc7c4e8c85d71c4c6556f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
