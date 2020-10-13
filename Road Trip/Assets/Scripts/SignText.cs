@@ -13,7 +13,11 @@ public class SignText : MonoBehaviour
     private int textWidth = 400;
     private int textHeight = 200;
 
+    private int textCloseDistance = 7;
+
     private bool clicked = false;
+
+    GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +26,18 @@ public class SignText : MonoBehaviour
         text.fontSize = fontSize;
         text.rectTransform.sizeDelta = new Vector2(textWidth, textHeight);
         text.text = textString;
+
+        player = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Vector3.Distance(player.transform.position, transform.position) > textCloseDistance)
+        {
+            clicked = false;
+        }
+
         if(clicked)
         {
             text.enabled = true;
