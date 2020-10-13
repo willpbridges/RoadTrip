@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Road Trip/Assets/skyb1/sky,startday.mat.meta
+guid: e222162ddb8d34547a133b673221b195
+NativeFormatImporter:
+=======
 guid: 8e7e8f5a82a3a134e91c54efd2274ea9
 folderAsset: yes
 DefaultImporter:
+>>>>>>> master:Road Trip/Assets/TextMesh Pro/Documentation.meta
   externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
