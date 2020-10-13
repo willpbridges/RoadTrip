@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Road Trip/Assets/Materials/Player.mat.meta
+guid: 67f773d1b696b194ba0d1855ba08f66a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+=======
 guid: fade42e8bc714b018fac513c043d323b
 timeCreated: 1425440388
 licenseType: Store
 TextScriptImporter:
+>>>>>>> master:Road Trip/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 
